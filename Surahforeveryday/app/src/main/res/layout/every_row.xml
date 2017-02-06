@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/nameOfSurah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="surah name"
+            android:textSize="30dp"
+            android:background="#036ca1"
+            android:textColor="#18f97a"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/costoOfSurah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="cost"
+            android:textSize="15dp"
+            android:textColor="#6edf79"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:textStyle="italic"/>
+</LinearLayout>

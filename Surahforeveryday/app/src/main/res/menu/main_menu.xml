@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Help"
+        app:showAsAction="never"
+        android:onClick="helpMethod"
+        />
+    <item
+        android:title="About"
+        app:showAsAction="never"
+        android:onClick="aboutMethod"
+        />
+
+</menu>
