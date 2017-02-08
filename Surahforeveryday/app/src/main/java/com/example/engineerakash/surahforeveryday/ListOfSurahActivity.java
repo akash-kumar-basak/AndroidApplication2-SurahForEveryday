@@ -52,8 +52,8 @@ public class ListOfSurahActivity extends AppCompatActivity {
         alertDialog.show();
 
     }
-
-    @Override
+    //create menu
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.main_menu, menu);
@@ -93,5 +93,5 @@ public class ListOfSurahActivity extends AppCompatActivity {
         });
         AlertDialog aboutApp = aboutString.create();
         aboutApp.show();
-    }
+    }*/
 }

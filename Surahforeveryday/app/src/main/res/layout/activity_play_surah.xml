@@ -12,16 +12,60 @@
     android:background="@drawable/playactivitybackgroung"
     tools:context="com.example.engineerakash.surahforeveryday.PlaySurah">
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/bangla"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#55f1bd"
+            android:background="#1f06a7d9"
+            android:textSize="10dp"/>
+        <TextView
+            android:id="@+id/arabic"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textColor="#55f1bd"
+            android:background="#1f06a7d9"
+            android:textSize="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Read in bangla"
+            android:textColor="#05aafc"
+            android:onClick="banglaString"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Read in arabic"
+            android:textColor="#05aafc"
+            android:onClick="arabicString"/>
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center">
         <TextView
-            android:id="@+id/surahName"
+            android:id="@+id/anyText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" "
-            android:textSize="30dp"
+            android:textSize="10dp"
             android:textColor="#05fcdb"/>
     </LinearLayout>
     <LinearLayout
@@ -30,7 +74,6 @@
         android:orientation="horizontal"
         android:layout_gravity="center">
         <Button
-            android:id="@+id/play"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -40,7 +83,6 @@
             android:textAllCaps="false"/>
 
         <Button
-            android:id="@+id/stop"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
